@@ -1,0 +1,119 @@
+
+
+.branco {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.azul {
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.azul-claro {
+    background-color:  rgb(104, 222, 243);
+    padding: 10px;
+    border: 1px solid rgb(104, 222, 243);
+    border-radius: 1px;
+}
+.amarelo {
+    background-color: rgb(227, 252, 8);
+    padding: 10px;
+    border: 1px solid rgb(227, 252, 8);
+    border-radius: 5px;
+}
+
+.rosa {
+    background-color: pink;
+    padding: 10px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+.roxo {
+    background-color: purple;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+
+.vermelho-claro{
+    background-color: rgb(245, 135, 135);
+    padding: 10px;
+    border: 1px solid rgb(245, 135, 135);
+    border-radius: 5px;
+}
+
+.vermelho {
+    background-color: red;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius:  5px;
+}
+
+.verde{
+    background-color: green;
+    padding: 10px;
+    border:  1px solid green;
+    border-radius: 5px;
+}
+.laranja {
+    background-color: orange;
+    padding: 10px;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+
+.espaco10{
+    grid-column: span 10;
+}
+
+.espaco16{
+    grid-column: span 16;
+}
+
+.vazio {
+    visibility: hidden; 
+}
+
+.tabela-periodica {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 4px;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.elemento {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    border-radius: 5px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+.numero-atomico {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.simbolo {
+    font-size: 18px;
+    font-weight: bold;
+}
+.nome {
+    font-size: 10px;
+}
+
